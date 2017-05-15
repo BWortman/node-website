@@ -1,4 +1,6 @@
-﻿# Node Website
+﻿[![Build Status](https://travis-ci.org/BWortman/node-website.svg?branch=master)](https://travis-ci.org/BWortman/node-website)
+
+# Node Website
 
 ## Overview
 
