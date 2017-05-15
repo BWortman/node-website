@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- node
+- '6'
+deploy:
+  provider: heroku
+  app: bw-node-website
+  on: master
+  api_key:
+    secure: mvY6IPwABmfDZqj2pWGoccZC311w1Mm/DiXClKtrAY7H2Zo4FGkhkjgpvhrxvEtPPnskb4C0c0sQyEnfkOnPnwAUNkPa7UBPq3rOz8ZTGIWhU5C7sn9Cb99pmKc/S5on+X/nEF7EqUM6mtDYUQcnFIkV3Ki948PbeT3QXnvil9+6/t2Mo+bIaye3McrBO/O3lbtocH7saFUDd97WyJHDQPn5wbs+wpF+Sh3AezfEKddbdo0+FIAbT3h9SnqBHGqCPEc/z3emWk4JEdVMIZsTrD+C8OsurG1U10KGVxa695mHlZyLm7xJeoi5SWHkEERHt2SqfllC7k9/9Ssse+OQa8eWJExXZPwx2rslsn8Rv2cL0Jt1v49LhiE3+/XHN6/rf9LQ79K6QpWX+gcZsyHLUyGjrvBw5jSXXyJb42D+FjX7JPO7R5QHmOqwloNxu3tg5Dhd03sLPScBqJKfMqOLiQm51BiFFkaLWIW2h/eQqu/kJawR6xvjweLmaNIfRV39XIzkwuot+o7PrQPJMW5SNFHXQKQEO749Rp8jDQBo8j2eJ5v9o4j9OwAT4j1qxUi8uxfxa6NZlgT+UDxr0OD/almFltp01g9dLlJ092iBXGNeVk5JFb0pb6EcisF/D0AdWQ4VkQNpuyINsujyRmaEgXvcYHjPU11gymAXeNIDMbI=
