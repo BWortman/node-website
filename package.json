@@ -1,0 +1,33 @@
+{
+  "engines": {
+    "node": "6.0.0"
+  },
+  "name": "node-web",
+  "version": "0.0.1",
+  "description": "Learning how to build a Node.js-based Web app.",
+  "readmeFilename": "README.md",
+  "author": "Brian Wortman",
+"license": "MIT",
+  "main": "./bin/www",
+  "scripts": {
+    "lint": "eslint \"*.js\" \"routes/**/*.js\"",
+    "start": "node ./bin/www",
+    "watch": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BWortman/node-website.git"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "~3.11.1",
+    "eslint-config-google": "~0.7.1"
+  }
+}
